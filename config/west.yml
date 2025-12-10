@@ -20,7 +20,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
-      import: app/west.yml  # <--- CRITICAL: This imports the board definitions
+      revision: v3.5.0        # <--- FIX 1: Pins us to a known working version (No Zephyr 4.1.0!)
+      import: app/west.yml    # <--- FIX 2: Imports the board definitions (Fixes "No board found")
   self:
     path: config
