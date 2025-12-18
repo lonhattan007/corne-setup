@@ -19,7 +19,7 @@
 
         kl_enter {
             bindings = <&kp RET>;
-            key-positions = <20 21>;
+            key-positions = <32 33>;
         };
     };
 
@@ -46,10 +46,10 @@
 
         raise_layer {
             bindings = <
-&kp ESC    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT  &kp RBKT  &kp DEL
-&kp LCTRL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp MINUS  &kp EQUAL  &kp LPAR   &kp RPAR  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp N6    &kp N7  &kp N8    &kp N9    &kp N0       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                             &trans    &trans    &trans       &trans     &trans     &trans
+&kp TILDE  &kp EXCL  &kp N7        &kp N8  &kp N9        &kp DOLLAR     &kp CARET      &kp AMPS   &kp ASTRK  &kp LBKT  &kp RBKT  &kp DEL
+&kp LCTRL  &kp AT    &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp PERCENT    &kp PIPE       &kp MINUS  &kp EQUAL  &kp LPAR  &kp RPAR  &kp GRAVE
+&kp LSHFT  &kp HASH  &kp N1        &kp N2  &kp NUMBER_3  &kp N0         &kp BACKSLASH  &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &trans
+                                   &trans  &trans        &trans         &trans         &trans     &trans
             >;
         };
     };
